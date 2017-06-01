@@ -2,7 +2,7 @@ FROM debian:jessie
 
 MAINTAINER Christian Luginbühl <dinkel@pimprecords.com>
 
-ENV OPENLDAP_VERSION 2.4.40
+ENV OPENLDAP_VERSION 2.4.40+dfsg-1+deb8u3
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
